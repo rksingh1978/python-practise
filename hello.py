@@ -1,0 +1,8 @@
+# print simple hi
+print("Hi")
+
+# print if statement
+if 3 > 2
+    print("3 is greater than 2")
+
+#
