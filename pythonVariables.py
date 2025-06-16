@@ -12,7 +12,7 @@ print(z)
 print(x + y + z)
 
 # unpacking
-fruits = {"apple", "banana", "pear"}
+fruits = ["apple", "banana", "pear"]
 x, y, z = fruits
 print(x)
 
