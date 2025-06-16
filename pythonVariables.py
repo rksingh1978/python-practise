@@ -4,8 +4,8 @@ y = 5
 z = 7
 print(x, y, z)
 
-# variables are assigned as a list as well
-x, y, z = {"apple", "banana", "pear"}
+# variables are assigned like below
+x, y, z = "apple", "banana", "pear"
 print(x)
 print(y)
 print(z)
@@ -38,3 +38,11 @@ print("global value of x is:")
 print(x)
 
 # local value inside a function can be made global by terming it as global
+eng_word = "colour" # Global variable
+
+def func():
+    global eng_word
+    eng_word = "color" # changed value of global var from inside a func using global keyword
+    print("in US, we use: " +eng_word)
+    func()
+print("in all places except US, we use: " +eng_word)
