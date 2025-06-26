@@ -32,6 +32,69 @@ print(a.replace("A","T"))
 # used to strip all empty spaces in a string
 print(a.strip())
 
-#concatenate strings
+# concatenate strings
+a = "Rakesh"
+b = "Singh"
+print(a+b)
+print(a + " " +b)
+
+# format(f) strings
+a = "Rakesh"
+b = 47
+# print(a + b) # will throw an error
+c = f"{a} age is {b}"
+print(c)
+
+# escape chars
+x = "Hello \nWorld!"
+print(x)
+y = "Hello\tWorld"
+print(y)
+z = "Hello \rWorld!"
+print(z)
+
+# string in-built functions:
+# count()
+str = "Python is an OOPS language"
+print(str.count('t'))
+
+# isalnum()
+str = "Python is an OOPS language"
+print(str.isalnum())
+
+# isalpha()
+str = "Python is an OOPS language"
+print(str.isalpha())
+
+# isascii()
+str = "Python is an OOPS language"
+print(str.isascii())
+
+# isdigit()
+str = "Python is an OOPS language"
+print(str.isdigit())
+
+# islower()
+print("islower() value of a string:")
+str = "Python is an OOPS language"
+print(str.islower())
+
+# istitle()
+print("istitle() value of a str:")
+str = "Python is an OOPS language"
+print(str.istitle())
+str2 = "Rakesh Kumar Singh"
+print("istitle() value of a str2:")
+print(str2.istitle())
+
+#
+
+
+
+
+
+
+
+
 
 
